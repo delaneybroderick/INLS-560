@@ -1,10 +1,7 @@
-
-songs = ['Girl', 'Yesterday','I Know its Over', 'Unloveable']
+songs = ['girl', 'yesterday','just', 'unloveable']
 
 for song in songs:
-    if song == 'Girl':
-        print('The Beatles')
-    if song == 'Yesterday':
-        print('The Beatles')
+    if song == 'girl':
+        print(song.lower())
     else:
-        print('The Smiths')
+        print(song.capitalize())
