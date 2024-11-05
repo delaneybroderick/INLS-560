@@ -1,0 +1,34 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Calibri;
+    }
+
+    body {
+        background-color: #7BAFD4;
+    }
+
+    nav {
+        background-color: #13294B;
+        padding: 10px;
+    }
+
+    nav a {
+        color: #4B9CD3;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+
+    nav a.active {
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    .content {
+        background-color: #F8F8F8;
+        padding: 20px;
+        margin: 20px;
+    }
+    
